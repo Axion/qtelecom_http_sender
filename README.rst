@@ -1,6 +1,6 @@
 Реализация HTTP протокола для отправки СМС посредством http://www.qtelecom.ru/
 
-Применение:::
+Применение::
 
     from qtelecom import QTSMS
 
@@ -13,4 +13,5 @@
     sender.post_sms([phone], sms_body)
 
 При некорректных входных параметрах будет вызвано исключение SMSLengthException
+
 При ошибке отправки будет вызвано исключение ServerException
