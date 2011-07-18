@@ -58,5 +58,4 @@ class QTSMS:
             error = "\n".join([node.childNodes[0].childNodes[0].data
                 for node in response.getElementsByTagName('errors')])
 
-            print error
             raise ServerException(error)
