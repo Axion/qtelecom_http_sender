@@ -2,6 +2,8 @@
 
 Применение:::
 
+    from qtelecom import QTSMS
+
     username = 'your_username'
     password = 'your_password'
     phone = '80000000000'
